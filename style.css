@@ -1,0 +1,70 @@
+body{
+    background-color: antiquewhite;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(html\index\1.jpg);
+    
+}
+header{
+    text-align: center;
+    align-content: center;
+    align-items:center;
+    font-size: 200%;
+}
+main{
+    text-align: center;
+    font-weight:bolder;
+}
+th:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    transition: 1s;
+    transition-delay: 200ms;
+}
+table{
+    margin: auto;
+    padding: auto;
+    border-color: black;
+    border-width: 10px;
+    border-style: groove;
+    table-layout: fixed;
+}
+thead{
+    border: 100px;
+    border-color: black;
+}
+#enjoy:focus{
+    font-weight: bolder;
+    font-stretch:extra-expanded;
+    font-size: 25px;
+    transition: 1s;
+    transition-delay: 200ms;
+}
+#tom{
+    animation-name: runw;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.one{
+    background-image:radial-gradient(circle,red,green,blue);
+    width: 40px;
+    height: 30px;
+}
+
+@keyframes runw {
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+    100%{
+        top: 0%;
+        left: 100%;
+    }
+}
+
