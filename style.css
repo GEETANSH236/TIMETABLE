@@ -1,11 +1,10 @@
 body{
     background-color: antiquewhite;
-    background-image: url();
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
-    
+    background-image: url(html\index\1.jpg);
     
 }
 header{
@@ -66,5 +65,9 @@ thead{
         top: 0%;
         left: 100%;
     }
+}
+abbr{
+    border-bottom:  dashed red;
+    cursor: pointer;
 }
 
