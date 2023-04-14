@@ -1,11 +1,16 @@
 body{
-    background-color: antiquewhite;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-image: url(html\index\1.jpg);
-    
+    background-color: black;
+}
+h1{
+    color: white;
+}
+img{
+    border: 2px solid;
+    border-color: aliceblue;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-left: auto;
 }
 header{
     text-align: center;
@@ -14,6 +19,7 @@ header{
     font-size: 200%;
 }
 main{
+   
     text-align: center;
     font-weight:bolder;
 }
@@ -25,16 +31,17 @@ th:hover{
     transition-delay: 200ms;
 }
 table{
+    background-color: orange;
     margin: auto;
     padding: auto;
-    border-color: black;
+    border-color: white;
     border-width: 10px;
     border-style: groove;
     table-layout: fixed;
 }
 thead{
     border: 100px;
-    border-color: black;
+    border-color:white;
 }
 #enjoy:focus{
     font-weight: bolder;
@@ -43,31 +50,110 @@ thead{
     transition: 1s;
     transition-delay: 200ms;
 }
-#tom{
-    animation-name: runw;
+.one{
+    background-image:radial-gradient(circle,black,white);
+    width: 40px;
+    height: 30px;
+    animation-name: one;
     position: relative;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.one{
-    background-image:radial-gradient(circle,red,green,blue);
-    width: 40px;
-    height: 30px;
-}
 
-@keyframes runw {
+@keyframes one{
     0%{
-        top: 0%;
-        left: 0%;
+        top: 0px;
+        left: 430px;
     }
-    100%{
-        top: 0%;
-        left: 100%;
+    12.5%{
+        top: 130px;
+        left: 430px;
+    }
+    25%{
+        top: 130px;
+        left: 240px;
+    }
+    37.5%{
+        top: 320px;
+        left: 240px;
+    }
+    50%{
+        top: 320px;
+        left: 1000px;
+    }
+    62.5%{
+        top: 130px;
+        left: 1000px;
+
+    }
+    75%{
+        top: 130px;
+        left: 808px;
+    }
+    87.5%{
+        top:  0px;
+        left: 808px;
+    }
+    100%{top: 0px;
+        left: 430px;
     }
 }
 abbr{
-    border-bottom:  dashed red;
-    cursor: pointer;
+    cursor:auto;
+    border-bottom: none;
+    text-decoration: none;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+.two{
+    background-image:radial-gradient(circle,black,white);
+    width: 40px;
+    height: 30px;
+    animation-name: two;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes two{
+    0%{
+        top: 0px;
+        left: 540px;
+    }
+    12.5%{
+        top: 70px;
+        left: 540px;
+    }
+    25%{
+        top: 70px;
+        left: 700px;
+    }
+    37.5%{
+        top: 0px;
+        left: 700px;
+    }
+    50%{
+        top: 0px;
+        left: 97%;
+    }
+    62.5%{
+        top: -640px;
+        left: 97%;
+
+    }
+    75%{
+        top: -640px;
+        left: 0px;
+    }
+    87.5%{
+        top: 0px ;
+        left: 0px;
+    }
+    100%{top: 0px;
+        left: 540px;
+    }
 }
 
